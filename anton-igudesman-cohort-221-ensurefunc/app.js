@@ -2,7 +2,6 @@ function ensure(value) {
     try {
         value = document.getElementById("value");
         const output = document.getElementById("output-value");
-        console.log(value.value);
         
         if (value.value == "") {
             throw new Error ("Please enter a number into the value field");
